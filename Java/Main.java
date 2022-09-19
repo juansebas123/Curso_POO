@@ -2,7 +2,7 @@ class Main {
     public static void main(String[] args) {
         System.out.println("hola mundo");
         //tipo de clase-obejto-nwe(palabra reservada)-metodo constructor
-        Car car = new Car("AMQ123", new Account("Andres Herrera", "AND123"));
+        UberX UberX = new UberX("AMQ123", new Account("Andres Herrera", "AND123"), "Chevroler", "Sonic");
         //empecemos con atributos
         //car.license = "AMQ123"; se ahorro esto
         //car.driver = "Andres Herrera"; se ahorro esto
