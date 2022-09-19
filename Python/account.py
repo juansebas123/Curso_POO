@@ -1,9 +1,10 @@
-from ast import Str
-
-
 class Account:
     id = int
-    name = Str
+    name = str
     document = str
     email = str
     password = str
+
+    def __init__(self, name, document):
+        self.name = name
+        self.document = document
